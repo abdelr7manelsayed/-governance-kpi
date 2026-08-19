@@ -1,1 +1,8 @@
-import reportRoutes from "./routes/reportsRoutes.js";
+import express from "express";
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  res.send("Reports route working!");
+});
+
+export default router;
