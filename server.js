@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import kpiRoutes from "./routes/kpiRoutes.js";
 import alertRoutes from "./routes/alertRoutes.js";
-import reportRoutes from "./routes/reportRoutes.js";
+import reportsRoutes from "./routes/reportsRoutes.js";
 
 dotenv.config();
 const app = express();
